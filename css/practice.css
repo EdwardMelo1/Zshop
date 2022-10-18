@@ -1,0 +1,41 @@
+.wrap-body{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.zerogrid{
+    width: 1000px;
+    
+}
+.main-header .row, .wrap-box .row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* ====Cuadros==== */
+
+.col-2-5{
+    width: 40%;
+    
+}
+.col-3-5{
+    width: 60%;
+    
+}
+.col-1-2{
+    width: 50%;
+}
+/* ====BLOG==== */
+
+.wrap-footer .row:first-child{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.contact-form .wrap-col{
+    width: 93%;
+    
+} 
+.t-center{
+    padding-top: 40px;
+}
